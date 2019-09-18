@@ -74,11 +74,7 @@ a.navlink:hover {
   background-color: green;
 }
 
-.topheader{
-  content: "";
-  display: table;
-  clear: both;
-}
+
 /* stile parte inferiore header */
 
 .bottomheader{
@@ -103,7 +99,17 @@ a.navlink:hover {
   font-size: 50px;
 }
 
+
 /* stile bottone */
 .botheader .button{
   margin-left: 12%
+}
+
+/* stile della prima section */
+.greydiv {
+  height: 200px;
+  background-color: #bababa;
+  text-align: center;
+  padding: 55px;
+  font-size: 1.3em;
 }
