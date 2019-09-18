@@ -153,7 +153,70 @@ a.navlink:hover {
 }
 
 .trittico:after{
-  content="";
+  content: "";
   display: table;
   clear: both;
 }
+
+/* sezione footer */
+
+footer{
+  height: 400px;
+  width: 100%;
+}
+
+/* regole parte superiore footer */
+.topfooter{
+  height: 100px;
+  width: 100%;
+  padding-top: 20px;
+  background-color: #0D325A;
+}
+
+.footertxt{
+  color: white;
+  margin-left: 10%;
+  line-height: 30px;
+}
+
+.footertxt a{
+  color: orange;
+  text-decoration: none;
+}
+/* regole parte inferiore footer */
+.botfooter{
+  background-color:#17406B;
+  height: 300px;
+  width: 100%;
+  position: relative;
+
+}
+/* stile container di sinistra */
+.contatti{
+  width: 50%;
+  float: left;
+}
+
+ul {
+  list-style: none;
+  color: white;
+}
+
+.contatti{
+  line-height: 30px;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+}
+
+.contatti a{
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.contatti a:hover{
+  text-decoration: underline;
+}
+
+/* stile container footer di destra */
