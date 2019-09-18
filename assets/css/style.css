@@ -183,6 +183,11 @@ footer{
   color: orange;
   text-decoration: none;
 }
+
+.footertxt a:hover{
+  text-decoration: underline;
+}
+
 /* regole parte inferiore footer */
 .botfooter{
   background-color:#17406B;
@@ -211,7 +216,7 @@ ul {
 }
 
 .contatti a{
-  color: lightgrey;
+  color: #7991AA;
   text-decoration: none;
 }
 
@@ -220,3 +225,29 @@ ul {
 }
 
 /* stile container footer di destra */
+.credits{
+  width: 50%;
+  float: right;
+  text-align: right;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+}
+
+.credit1{
+  line-height: 60px;
+  color: white;
+  font-weight: bold;
+}
+
+.recapito{
+  line-height: 20px;
+  color: #7991AA
+}
+
+footer{
+  content: "";
+  display: table;
+  clear: both;
+}
