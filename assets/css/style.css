@@ -22,7 +22,22 @@ header{
 
 .logo{
   margin-left: 30px;
+  margin-right: 30px;
   float: left;
 }
 
+.navlist{
+  float: left;
+  list-style: none;
+}
+
+a.navlink{
+  display: block;
+  color: white;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
 /* stile parte inferiore header */
