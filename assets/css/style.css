@@ -104,12 +104,49 @@ a.navlink:hover {
 .botheader .button{
   margin-left: 12%
 }
-
+/* clearfix */
+.bottomheader:after{
+  content:"";
+  display: table;
+  clear: both;
+}
 /* stile della prima section */
 .greydiv {
   height: 200px;
   background-color: #bababa;
   text-align: center;
-  padding: 55px;
+  padding: 60px;
   font-size: 1.3em;
+}
+/* stile del trittico */
+.trittico{
+  width: 100%;
+}
+.profilo, .computer, .progressi{
+  float: left;
+  width: 25%;
+  margin: 4%;
+  text-align: center;
+}
+
+.tritticoimg {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10%;
+}
+
+.tritticotitle{
+  color: green;
+  font-size: 30px;
+  /* border-bottom: 3px solid grey;
+} */
+
+.tritticotext{
+
+}
+
+.trittico:after{
+  content="";
+  display: table;
+  clear: both;
 }
