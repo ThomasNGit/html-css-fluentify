@@ -9,7 +9,7 @@
 
 /* stile del header */
 header{
-  height: 600px;
+  height: 550px;
   width: 100%;
   background-color: #0D325A;
   position: relative;
@@ -79,40 +79,44 @@ a.navlink:hover {
   background-color: green;
 }
 
-
+.topheader{
+  content: "";
+  display: table;
+  clear: both;
+}
 /* stile parte inferiore header */
 
-.bottomheader{
+.botheader{
   height: 450px;
-  width: 80%;
-  margin-left: 20%;
+  width: 90%;
+  margin-left: 10%;
+}
+
+/* stile scritta */
+.intestazione h1{
+  color: white;
+  float: left;
+  margin-top: 5%;
+  width: 50%;
+  font-size: 50px;
 }
 
 /* stile immagine */
 .oldman{
   height: 450px;
   width: 1000px;
-  margin-top: 10%;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  float: right;
+  width: 50%;
 }
-
-/* stile scritta */
-.intestazione h1{
-  color: white;
-  margin-left: 9%;
-  padding: 50px;
-  font-size: 50px;
-}
-
 
 /* stile bottone */
 .botheader .button{
-  margin-left: 12%
+  float: left;
+  margin:5% 0;
+
 }
 /* clearfix */
-.bottomheader:after{
+.botheader:after{
   content:"";
   display: table;
   clear: both;
@@ -120,36 +124,38 @@ a.navlink:hover {
 /* stile della prima section */
 .greydiv {
   height: 200px;
-  background-color: #bababa;
+  background-color: #F9F9F9;
   text-align: center;
   padding: 60px;
-  font-size: 1.3em;
+  font-size: 1.2em;
+  line-height: 40px;
 }
 /* stile del trittico */
 .trittico{
-  width: 100%;
+  width: 90%;
+  margin: 0 5%;
 }
 .profilo, .computer, .progressi{
   float: left;
   width: 25%;
-  margin: 4%;
+  margin: 5% 4%;
   text-align: center;
 }
 
 .tritticoimg {
-  height: 200px;
-  width: 200px;
-  margin-bottom: 10%;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 15%;
 }
 
 .tritticotitle{
   color: green;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
 .tritticotext{
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .trittico:after{
@@ -193,29 +199,23 @@ footer{
   background-color:#17406B;
   height: 300px;
   width: 100%;
-  position: relative;
 
 }
 /* stile container di sinistra */
 .contatti{
-  width: 50%;
+  width: 30%;
   float: left;
-}
+  line-height: 30px;
+  margin-left: 20%;
+  margin-top: 50px;
+  }
 
 ul {
   list-style: none;
   color: white;
 }
 
-.contatti{
-  line-height: 30px;
-  position: absolute;
-  left: 50%;
-  top:50%;
-  transform: translate(-50%, -50%);
-}
-
-.contatti a{
+.contatti .contact{
   color: #7991AA;
   text-decoration: none;
 }
@@ -226,13 +226,11 @@ ul {
 
 /* stile container footer di destra */
 .credits{
-  width: 50%;
-  float: right;
+  width: 30%;
+  float: left;
   text-align: right;
-  position: absolute;
-  left: 50%;
-  top:50%;
-  transform: translate(-50%, -50%);
+  margin-right: 20%;
+  margin-top: 50px;
 }
 
 .credit1{
