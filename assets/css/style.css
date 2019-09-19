@@ -164,6 +164,45 @@ a.navlink:hover {
   clear: both;
 }
 
+/* stile del secondo blocco centrale */
+.rowcontainer1{
+  width: 80%;
+  height: 300px;
+  margin: 5% 10%;
+}
+
+.col1{
+  width: 40%;
+  float: left;
+  margin-right: 10%;
+}
+
+.mount{
+  width: 400px;
+  height: 400px;
+  margin-left: 20%;
+}
+
+.col2{
+  width: 40%;
+  float: left;
+  line-height: 50px;
+  padding: 40px;
+}
+
+.col2 h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #4A4A4A;
+}
+
+.col2 p {
+  color: #7991AA;
+}
+
+.col2 a{
+  color: #99B5D7;
+}
 /* sezione footer */
 
 footer{
